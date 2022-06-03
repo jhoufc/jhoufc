@@ -1,5 +1,16 @@
 ### Hi there 👋
 
+Fullstack developer with more 10 yars, work with .NET.
+
+I recently started to study new technologies related to the development of APPs.
+NodeJS
+React / React-Native (NextJS)
+Mongo / Express
+
+I was fascinated with the possibilities that these languages provide, and as I have been working with JavaScript Vanila and JQuery for many years, I am quickly learning to implement this type of application, I hope to build apps that can help people in their daily lives and make difference in their lives.
+
+
+see you later
 <!--
 **jhoufc/jhoufc** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
