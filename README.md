@@ -13,7 +13,7 @@ I was fascinated with the possibilities that these languages provide, and as I h
 see you later .
 
 
-![Profile View Counter](https://komarev.com/ghpvc/?username=jhoufc)
+
 <!--
 **jhoufc/jhoufc** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
