@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390">
+<defs>
+<linearGradient id="bg" x1="0" x2="1"><stop offset="0" stop-color="#061017"/><stop offset=".5" stop-color="#08151c"/><stop offset="1" stop-color="#061017"/></linearGradient>
+<filter id="g"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="3.5" orient="auto"><polygon points="0 0,8 3.5,0 7" fill="#246276"/></marker>
+<path id="route" d="M125 207 L282 207 L440 207 L600 207 L758 207 L916 207 L1070 207"/>
+</defs>
+<rect x="1" y="1" width="1198" height="388" rx="16" fill="url(#bg)" stroke="#0ea5e9" stroke-opacity=".45"/>
+<text x="32" y="45" fill="#38bdf8" font-family="monospace" font-size="20" font-weight="700">&gt; engineering-loop --mode=agentic</text>
+<text x="1168" y="45" text-anchor="end" fill="#567987" font-family="monospace" font-size="14">complexity → software</text>
+<path d="M125 207 L282 207 L440 207 L600 207 L758 207 L916 207 L1070 207" fill="none" stroke="#173d4c" stroke-width="4" marker-end="url(#arrow)"/>
+<circle r="7" fill="#20e3b2" filter="url(#g)"><animateMotion dur="7s" repeatCount="indefinite"><mpath href="#route"/></animateMotion></circle>
+<circle r="4" fill="#38bdf8" opacity=".7"><animateMotion dur="7s" begin="-2.3s" repeatCount="indefinite"><mpath href="#route"/></animateMotion></circle>
+<circle r="4" fill="#38bdf8" opacity=".4"><animateMotion dur="7s" begin="-4.6s" repeatCount="indefinite"><mpath href="#route"/></animateMotion></circle>
+<g font-family="monospace">
+<g transform="translate(125 207)"><circle r="43" fill="#0a1c25" stroke="#1b5265" stroke-width="2"/><text text-anchor="middle" y="-4" fill="#e7f6fb" font-size="15" font-weight="700">INTENT</text><text text-anchor="middle" y="17" fill="#6ea0b2" font-size="11">problem</text></g>
+<g transform="translate(282 207)"><circle r="43" fill="#0a1c25" stroke="#1b5265" stroke-width="2"/><text text-anchor="middle" y="-4" fill="#e7f6fb" font-size="15" font-weight="700">CONTEXT</text><text text-anchor="middle" y="17" fill="#6ea0b2" font-size="11">repo + rules</text></g>
+<g transform="translate(440 207)"><circle r="43" fill="#0a1c25" stroke="#1b5265" stroke-width="2"/><text text-anchor="middle" y="-4" fill="#e7f6fb" font-size="14" font-weight="700">ARCH</text><text text-anchor="middle" y="17" fill="#6ea0b2" font-size="11">decisions</text></g>
+<g transform="translate(600 207)"><circle r="51" fill="#081f22" stroke="#20e3b2" stroke-width="2.5" filter="url(#g)"/><circle r="64" fill="none" stroke="#1a6471" stroke-width="1.5" stroke-dasharray="7 9"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="9s" repeatCount="indefinite"/></circle><text text-anchor="middle" y="-5" fill="#20e3b2" font-size="16" font-weight="800">AGENTS</text><text text-anchor="middle" y="17" fill="#89c5c7" font-size="11">orchestrate</text></g>
+<g transform="translate(758 207)"><circle r="43" fill="#0a1c25" stroke="#1b5265" stroke-width="2"/><text text-anchor="middle" y="-4" fill="#e7f6fb" font-size="15" font-weight="700">CODE</text><text text-anchor="middle" y="17" fill="#6ea0b2" font-size="11">implement</text></g>
+<g transform="translate(916 207)"><circle r="43" fill="#0a1c25" stroke="#1b5265" stroke-width="2"/><text text-anchor="middle" y="-4" fill="#e7f6fb" font-size="14" font-weight="700">VALIDATE</text><text text-anchor="middle" y="17" fill="#6ea0b2" font-size="11">test + review</text></g>
+<g transform="translate(1070 207)"><circle r="43" fill="#09251f" stroke="#20e3b2" stroke-width="2.5"/><text text-anchor="middle" y="-4" fill="#20e3b2" font-size="15" font-weight="800">SHIP ✓</text><text text-anchor="middle" y="17" fill="#89c5c7" font-size="11">production</text><animate attributeName="opacity" values=".7;1;.7" dur="2s" repeatCount="indefinite"/></g>
+</g>
+<rect x="32" y="305" width="1136" height="52" rx="10" fill="#07151b" stroke="#123b47"/>
+<text x="52" y="337" fill="#7fa8b6" font-family="monospace" font-size="15">status:</text>
+<text x="120" y="337" fill="#20e3b2" font-family="monospace" font-size="15" font-weight="700">engineering ownership stays human</text>
+<rect x="489" y="320" width="9" height="21" rx="1" fill="#20e3b2"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+</svg>

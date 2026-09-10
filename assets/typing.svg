@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="150" viewBox="0 0 1200 150">
+<defs>
+<filter id="glow"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<clipPath id="c1"><rect id="r1" x="72" y="48" width="0" height="42"/></clipPath>
+<clipPath id="c2"><rect id="r2" x="72" y="48" width="0" height="42"/></clipPath>
+<clipPath id="c3"><rect id="r3" x="72" y="48" width="0" height="42"/></clipPath>
+<clipPath id="c4"><rect id="r4" x="72" y="48" width="0" height="42"/></clipPath>
+</defs>
+<rect x="1" y="1" width="1198" height="148" rx="14" fill="#071017" stroke="#0ea5e9" stroke-opacity=".5"/>
+<circle cx="28" cy="26" r="6" fill="#ff5f57"/><circle cx="48" cy="26" r="6" fill="#febc2e"/><circle cx="68" cy="26" r="6" fill="#28c840"/>
+<text x="92" y="32" fill="#9fdcff" font-family="monospace" font-size="16">jonathan@github:~/README.md</text>
+<line x1="22" x2="1178" y1="45" y2="45" stroke="#123746"/>
+
+<g opacity="0"><set attributeName="opacity" to="1" begin="0s;20s" dur="4.8s"/>
+<text x="72" y="91" clip-path="url(#c1)" fill="#e6f7ff" font-family="monospace" font-size="28" font-weight="700">&gt; I build software.</text>
+<rect x="72" y="67" width="10" height="31" rx="2" fill="#20e3b2" filter="url(#glow)"><animate attributeName="x" from="72" to="405" begin="0s;20s" dur="2.25s" fill="remove"/><animate attributeName="opacity" values="1;0;1" dur=".8s" repeatCount="indefinite"/></rect></g>
+<animate href="#r1" attributeName="width" from="0" to="340" begin="0s;20s" dur="2.25s" fill="remove"/>
+
+<g opacity="0"><set attributeName="opacity" to="1" begin="5s;25s" dur="4.8s"/>
+<text x="72" y="91" clip-path="url(#c2)" fill="#e6f7ff" font-family="monospace" font-size="28" font-weight="700">&gt; I architect systems.</text>
+<rect x="72" y="67" width="10" height="31" rx="2" fill="#20e3b2" filter="url(#glow)"><animate attributeName="x" from="72" to="470" begin="5s;25s" dur="2.5s" fill="remove"/><animate attributeName="opacity" values="1;0;1" dur=".8s" repeatCount="indefinite"/></rect></g>
+<animate href="#r2" attributeName="width" from="0" to="405" begin="5s;25s" dur="2.5s" fill="remove"/>
+
+<g opacity="0"><set attributeName="opacity" to="1" begin="10s;30s" dur="4.8s"/>
+<text x="72" y="91" clip-path="url(#c3)" fill="#e6f7ff" font-family="monospace" font-size="28" font-weight="700">&gt; I orchestrate AI agents.</text>
+<rect x="72" y="67" width="10" height="31" rx="2" fill="#20e3b2" filter="url(#glow)"><animate attributeName="x" from="72" to="570" begin="10s;30s" dur="2.9s" fill="remove"/><animate attributeName="opacity" values="1;0;1" dur=".8s" repeatCount="indefinite"/></rect></g>
+<animate href="#r3" attributeName="width" from="0" to="505" begin="10s;30s" dur="2.9s" fill="remove"/>
+
+<g opacity="0"><set attributeName="opacity" to="1" begin="15s;35s" dur="4.8s"/>
+<text x="72" y="91" clip-path="url(#c4)" fill="#20e3b2" font-family="monospace" font-size="28" font-weight="700">&gt; Less code. More software.</text>
+<rect x="72" y="67" width="10" height="31" rx="2" fill="#38bdf8" filter="url(#glow)"><animate attributeName="x" from="72" to="622" begin="15s;35s" dur="3.1s" fill="remove"/><animate attributeName="opacity" values="1;0;1" dur=".8s" repeatCount="indefinite"/></rect></g>
+<animate href="#r4" attributeName="width" from="0" to="560" begin="15s;35s" dur="3.1s" fill="remove"/>
+
+<text x="72" y="126" fill="#5f8291" font-family="monospace" font-size="14">build · architect · orchestrate · ship</text>
+</svg>
